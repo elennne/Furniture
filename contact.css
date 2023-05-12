@@ -1,0 +1,740 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    width: 100%;
+    height: 100%;
+   background-image: linear-gradient(#fff,rgb(214, 235, 243),  #054c739d); 
+  
+    
+   
+  }
+  
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 122px;
+    align-content: center;
+  }
+  
+  .heading{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  
+  header .heading nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+  }
+  
+  .heading nav a {
+    text-decoration: none;
+    margin-right: 60px;
+    color: #333333;
+    font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   
+    
+  }
+  .heading h1 {
+    margin-left: 100px;
+    font-weight: 700;
+    color:#333333
+  
+  }
+
+ 
+
+   main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: calc(100vh - 40px);
+    
+
+   
+  }
+
+  .language {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .genydiv {
+    margin:10px;
+   padding: 10px;
+   border: 2px solid #333333;
+   width: 50px;
+   height: 50px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   border-radius: 50%;
+   transition: .4s;
+
+  }
+  .genydiv a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+    text-align: center;
+  }
+
+ 
+
+.genydiv:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    background:none;
+}
+.genydiv:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.lang  {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: .4s;
+    
+   
+}
+.lang:hover {
+    transform: translateY(-3px);
+
+}
+.lang:active{
+    transform: translateY(-1px);
+}
+
+  .main-1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+
+  } 
+  .main-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+  }
+
+   .primary-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items:center;
+    gap: 20px;
+    
+  }
+
+  .header-1 {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ margin-top: 30px;
+  }
+  .header-1 h1 {
+    font-weight: 300;
+  }
+  .header-1 h3 {
+    font-weight: 400;
+  }
+
+  
+
+ 
+  .street {
+    width: 50%;
+    font-weight: 500;
+    text-align: center;
+
+  }
+  .fonts {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-weight: 400;
+  }
+  .fonts i {
+    font-size: 20px;
+    margin-right: 10px;
+  } 
+
+  .ifonts {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .fonts a {
+    text-decoration: none;
+    color:#000;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+
+ 
+  .forinputs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #333333;
+    padding-left: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background: transparent;
+
+  }
+  textarea {
+    background: transparent;
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+    height: 179px;
+    border-radius: 5px;
+    border: 1px solid #333333;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+
+  input:hover, 
+  textarea:hover {
+    border: 2px solid #333333;
+    background-color: #fff;
+  }
+  input:active,
+  textarea:active {
+    border: 2px solid #333333;
+  }
+
+
+.forbutton {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+  .send {
+    
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+
+  }
+
+  .send {
+    font-size: 19px;
+    transition: .2s;
+  }
+
+  .send:hover {
+    text-shadow: 2px 3px 1px #fff;
+  }
+  .send:active {
+   font-size: 17px;
+  }
+  
+
+
+  footer {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  footer p {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+
+  @media only screen and (min-width:320px) and (max-width:480px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+  body {
+    width:100%;
+  
+  }
+  header {
+    width: 100%;
+    height: auto;
+  }
+  .heading h1 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    
+    
+  }
+  header .heading nav  {
+    padding-left: 20px;
+    margin:0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    
+  }
+  .heading nav a {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+ 
+  main {
+    min-height: calc(100vh - 40px);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+
+  }
+
+  .street {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  .main-1 {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  iframe {
+    width: 200px;
+    height: 100px;
+  }
+  .primary-1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .forinputs {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  form {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+input:hover {
+    background-color: transparent;
+}
+   textarea:hover {
+    background-color: transparent;
+  }
+
+  .button-wrapper a {
+    font-size: 14px;
+  }
+
+  .button-wrapper:hover {
+    pointer-events: none;
+  }
+  .button-wrapper a:hover {
+    pointer-events: none;
+  }
+  .forbutton {
+    width: 60;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+  footer {
+    width: 100%;
+  }
+
+
+}
+
+
+
+
+
+@media only screen and  (min-width:481px) and (max-width:768px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+  body {
+    width:100%;
+  
+  }
+  header {
+    width: 100%;
+    height: auto;
+  }
+  .heading h1 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    
+    
+  }
+  header .heading nav  {
+    padding-left: 20px;
+    margin:0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    
+  }
+  .heading nav a {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+
+
+
+  main {
+    min-height: calc(100vh - 40px);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+ 
+
+  .street {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  .main-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  iframe {
+    width: 200px;
+    height: 100px;
+  }
+  .fonts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .primary-1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .forinputs {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  form {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  input {
+    width: 60%;
+  }
+  textarea {
+    width: 60%;
+  }
+input:hover {
+    background-color: transparent;
+}
+   textarea:hover {
+    background-color: transparent;
+  }
+
+  .button-wrapper a {
+    font-size: 20px;
+  }
+
+  .button-wrapper:hover {
+    pointer-events: none;
+  }
+  .button-wrapper a:hover {
+    pointer-events: none;
+  }
+
+  .forbutton {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+  footer {
+    width: 100%;
+  }
+
+
+}
+
+
+  
+
+  
+
+
+
+@media screen and (min-width:769px) and (max-width:1023px){
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+  body {
+    width:100%;
+  
+  }
+  header {
+    width: 100%;
+    height: auto;
+  }
+  .heading h1 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    
+    
+  }
+  header .heading nav  {
+    padding-left: 20px;
+    margin:0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    
+  }
+  .heading nav a {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+
+
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+   min-height: calc(100vh - 40px);
+
+  }
+
+  .street {
+    margin-top: 20px;
+    font-size: 13px;
+  }
+  .main-1 {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  .fonts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .primary-1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .forinputs {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  form {
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+input:hover {
+    background-color: transparent;
+}
+   textarea:hover {
+    background-color: transparent;
+  }
+
+  .button-wrapper a {
+    font-size: 20px;
+  }
+
+  .forbutton {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+  footer {
+    width: 100%;
+  }
+
+
+}
+
+
+@media screen  and (min-width:1024px) {
+
+
+ main {
+  min-height: calc(100vh - 40px);
+ }
+}
+
+
+  
+
+  
